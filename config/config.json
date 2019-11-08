@@ -1,0 +1,13 @@
+{
+	"players": [
+		{
+			"name": "VLC media player",
+			"path": "C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe"
+		},
+		{
+			"name": "PotPlayer",
+			"path": "C:\\Program Files\\DAUM\\PotPlayer\\PotPlayerMini64.exe %1 /add"
+		}
+	],
+	"selected_player": 0
+}

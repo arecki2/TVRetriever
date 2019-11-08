@@ -7,7 +7,7 @@ Python dependencies:
 * tldextract - to extract domains from URLs easily
 * youtube-dl - to have YT handled for me :)
 
-Usage: `python TVRetriever <url>`
+Usage: `python TVRetriever <url>`<br>
 Example: `python TVRetriever https://trwamtv.live.rd.insyscd.net/cl01/out/u/trwam.mpd`
 
 Known issues:

@@ -9,6 +9,8 @@ def choose_retriever(stream_source_url):
     retriever = None
     if "m3u8" in stream_source_url:
         retriever = M3U8Retriever(stream_source_url)
+    elif "pilot.wp" in stream_source_url:
+        pass
     else:
         retriever = get_retriever_for_hostname(stream_source_url)
     return retriever
